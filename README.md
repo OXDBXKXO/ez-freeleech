@@ -1,5 +1,5 @@
 # ez-freeleech
-A simple private tracker ratio cheater written in Golang.
+A simple private tracker ratio cheater written in Go.
 
 `ez-freeleech` acts as a HTTP proxy between your BitTorrent client and private trackers to tamper download reports. Every announce requests made to trackers will report 0 downloaded bytes. Based on [libtorrent tracker protocol documentation](https://libtorrent.org/udp_tracker_protocol.html#announcing).
 
